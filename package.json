@@ -1,6 +1,6 @@
 {
   "name": "r-orgchart",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "R-orgchart is a simple library for displaying and creating orgcharts in React.",
   "keywords": [
     "r-orgchart",
