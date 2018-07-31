@@ -1,0 +1,46 @@
+{
+  "name": "r-orgchart",
+  "version": "0.0.5",
+  "description": "R-orgchart is a simple library for displaying and creating orgcharts in React.",
+  "keywords": [
+    "r-orgchart",
+    "orgchart",
+    "org chart",
+    "react",
+    "react-orgchart",
+    "chart",
+    "tree-view"
+  ],
+  "author": "Kristina Sičaja <kristina@kodbiro.com> (http://www.kodbiro.com/)",
+  "license": "MIT",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "lodash": "^4.17.10",
+    "react": "^15.5.4",
+    "react-addons-update": "^15.6.2",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3"
+  }
+}
